@@ -1,8 +1,16 @@
 **English** | [Chinese](README.zh-CN.md)
 
-App1–App10 are used in the paper published in ASE 2025. App11 is the dataset and analysis toolkit accompanying the paper *Characterizing the Landscape of Open-Source Satellite Software*, accepted for publication at ASE 2026.
+ApplicationLayer collects satellite application software and related research resources for onboard computing, remote sensing, communications, and edge processing. It provides an index to application implementations and research datasets while keeping each project's source in its own repository.
 
-The application and research resource directories are listed below. Each application directory contains the application source together with the Dockerfile or build files needed to run it; App11 links to its standalone source repository.
+## Satellite Software
+
+[Satellite Software](https://github.com/OPEN-TianSuan/ApplicationLayer/blob/main/Satellite%20Software/README.md) introduces [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware), a dataset and analysis toolkit accompanying the paper *Characterizing the Landscape of Open-Source Satellite Software*, accepted for publication at ASE 2026.
+
+The repository provides scripts for collecting and filtering open-source satellite-related projects, programming-language distribution analysis, the 22,286-project RQ1 dataset, and the 646-project RQ2/RQ3 sample. The scripts and datasets remain in the external repository.
+
+## App1–App10
+
+App1–App10 are used in the paper published in ASE 2025. Each directory contains the application source together with the Dockerfile or build files needed to run it.
 
 | Application | Purpose | Implementation | Entry point |
 | --- | --- | --- | --- |
@@ -16,4 +24,3 @@ The application and research resource directories are listed below. Each applica
 | Object Detection | Runs YOLOv5-based object detection on images, with scripts for training, validation, inference, and model export. | YOLOv5 and PyTorch; Dockerfiles for multiple targets | `Object Detection/origin/detect.py` |
 | Ship Detection | Detects ships in remote-sensing images using a YOLOv5 model and the provided trained weights. | YOLOv5 and PyTorch; pre-trained `best.pt`; Dockerfile | `Ship Detection/origin/detect.py` |
 | Tracking Algorithm | Tracks feature points across video frames using Shi–Tomasi corner detection and pyramidal Lucas–Kanade optical flow. | C++ and OpenCV; Dockerfile | `Tracking Algorithm/origin/main.cpp` |
-| Satellite Software | Dataset and analysis toolkit for collecting, filtering, and studying open-source satellite-related software; includes the RQ1 dataset of 22,286 projects and the RQ2/RQ3 sample of 646 projects. | Python scripts and Excel datasets | [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware) |

@@ -1,8 +1,16 @@
 [English](README.md) | **中文**
 
-App1–App10 为 ASE 2025 论文中使用的应用；App11 为论文《Characterizing the Landscape of Open-Source Satellite Software》的配套数据集与分析工具集，该论文已被 ASE 2026 接收发表。
+ApplicationLayer 收录面向星载计算、遥感、通信和边缘处理的卫星应用软件及相关研究资源。仓库提供应用实现和研究数据集的索引，同时保留各项目在其独立仓库中的源代码。
 
-下表列出应用与研究资源目录。每个应用目录包含应用源码，以及运行所需的 Dockerfile 或构建文件；App11 链接到其独立源码仓库。
+## Satellite Software
+
+[Satellite Software](https://github.com/OPEN-TianSuan/ApplicationLayer/blob/main/Satellite%20Software/README.zh-CN.md) 介绍 [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware)，即论文《Characterizing the Landscape of Open-Source Satellite Software》的配套数据集与分析工具集，该论文已被 ASE 2026 接收发表。
+
+该仓库提供开源卫星相关项目的采集与筛选脚本、编程语言分布分析、包含 22,286 个项目的 RQ1 数据集，以及包含 646 个项目的 RQ2/RQ3 抽样数据集。脚本和数据集仍保留在外部仓库中。
+
+## App1–App10
+
+App1–App10 为 ASE 2025 论文中使用的应用。每个目录包含应用源码，以及运行所需的 Dockerfile 或构建文件。
 
 | 应用 | 功能 | 实现 | 入口 |
 | --- | --- | --- | --- |
@@ -16,4 +24,3 @@ App1–App10 为 ASE 2025 论文中使用的应用；App11 为论文《Character
 | 目标检测（Object Detection） | 基于 YOLOv5 对图像进行目标检测，提供训练、验证、推理与模型导出脚本。 | YOLOv5 与 PyTorch；面向多种目标平台的 Dockerfile | `Object Detection/origin/detect.py` |
 | 舰船检测（Ship Detection） | 使用 YOLOv5 模型与提供的预训练权重检测遥感图像中的舰船。 | YOLOv5 与 PyTorch；预训练权重 `best.pt`；Dockerfile | `Ship Detection/origin/detect.py` |
 | 目标跟踪（Tracking Algorithm） | 使用 Shi–Tomasi 角点检测与金字塔 Lucas–Kanade 光流，在视频帧之间跟踪特征点。 | C++ 与 OpenCV；Dockerfile | `Tracking Algorithm/origin/main.cpp` |
-| Satellite Software | 用于采集、筛选和研究开源卫星相关软件的数据集与分析工具集，包含 22,286 个项目的 RQ1 数据集和 646 个项目的 RQ2/RQ3 抽样数据集。 | Python 脚本与 Excel 数据集 | [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware) |
