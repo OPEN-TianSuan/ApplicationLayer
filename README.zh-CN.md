@@ -19,6 +19,6 @@ App1–App10 为 ASE 2025 论文中使用的应用。
 
 ## 🔗 相关研究资源
 
-[Satellite Software](https://github.com/OPEN-TianSuan/ApplicationLayer/blob/main/Satellite%20Software/README.zh-CN.md) 目录介绍 [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware) 的开源卫星相关软件数据集与分析工具集。源代码脚本和数据集仍保留在外部仓库中。
+[Satellite Software](https://github.com/OPEN-TianSuan/ApplicationLayer/blob/main/Satellite%20Software/README.zh-CN.md) 目录介绍 [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware)，即 ASE 2026 论文《Characterizing the Landscape of Open-Source Satellite Software》的配套数据集与分析工具集。该仓库提供开源卫星相关项目的采集与筛选脚本、编程语言分布分析，以及包含 22,286 个项目的 RQ1 数据集和包含 646 个项目的 RQ2/RQ3 抽样数据集。源代码脚本和数据集仍保留在外部仓库中。
 
 Jinfeng Wen, Jianshu Zhao, Zixi Zhu, Xiaomin Zhang, Qi Liang, Ao Zhou, Shangguang Wang. SateLight: a satellite application update framework for satellite computing. Proceedings of the IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025: 117-128.

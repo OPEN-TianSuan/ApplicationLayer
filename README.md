@@ -19,6 +19,6 @@ The ten application directories are listed below. Each directory contains the ap
 
 ## 🔗 Related Research Resource
 
-The [Satellite Software](https://github.com/OPEN-TianSuan/ApplicationLayer/blob/main/Satellite%20Software/README.md) directory introduces the [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware) dataset and analysis toolkit for studying open-source satellite-related software. The source scripts and datasets remain in the external repository.
+The [Satellite Software](https://github.com/OPEN-TianSuan/ApplicationLayer/blob/main/Satellite%20Software/README.md) directory introduces [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware), the dataset and analysis toolkit accompanying the ASE 2026 paper *Characterizing the Landscape of Open-Source Satellite Software*. It provides scripts for collecting and filtering open-source satellite-related projects, a programming-language distribution analysis, the 22,286-project RQ1 dataset, and the 646-project RQ2/RQ3 sample. The source scripts and datasets remain in the external repository.
 
 Jinfeng Wen, Jianshu Zhao, Zixi Zhu, Xiaomin Zhang, Qi Liang, Ao Zhou, Shangguang Wang. SateLight: a satellite application update framework for satellite computing. Proceedings of the IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025: 117-128.
