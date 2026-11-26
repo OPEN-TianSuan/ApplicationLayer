@@ -1,8 +1,8 @@
 **English** | [Chinese](README.zh-CN.md)
 
-App1 - App10 are used in the paper published in ASE 2025.
+App1–App10 are used in the paper published in ASE 2025. App11 is the dataset and analysis toolkit accompanying the paper *Characterizing the Landscape of Open-Source Satellite Software*, accepted for publication at ASE 2026.
 
-The ten application directories are listed below. Each directory contains the application source together with the Dockerfile or build files needed to run it.
+The application and research resource directories are listed below. Each application directory contains the application source together with the Dockerfile or build files needed to run it; App11 links to its standalone source repository.
 
 | Application | Purpose | Implementation | Entry point |
 | --- | --- | --- | --- |
@@ -16,9 +16,4 @@ The ten application directories are listed below. Each directory contains the ap
 | Object Detection | Runs YOLOv5-based object detection on images, with scripts for training, validation, inference, and model export. | YOLOv5 and PyTorch; Dockerfiles for multiple targets | `Object Detection/origin/detect.py` |
 | Ship Detection | Detects ships in remote-sensing images using a YOLOv5 model and the provided trained weights. | YOLOv5 and PyTorch; pre-trained `best.pt`; Dockerfile | `Ship Detection/origin/detect.py` |
 | Tracking Algorithm | Tracks feature points across video frames using Shi–Tomasi corner detection and pyramidal Lucas–Kanade optical flow. | C++ and OpenCV; Dockerfile | `Tracking Algorithm/origin/main.cpp` |
-
-## 🔗 Related Research Resource
-
-The [Satellite Software](https://github.com/OPEN-TianSuan/ApplicationLayer/blob/main/Satellite%20Software/README.md) directory introduces [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware), the dataset and analysis toolkit accompanying the ASE 2026 paper *Characterizing the Landscape of Open-Source Satellite Software*. It provides scripts for collecting and filtering open-source satellite-related projects, a programming-language distribution analysis, the 22,286-project RQ1 dataset, and the 646-project RQ2/RQ3 sample. The source scripts and datasets remain in the external repository.
-
-Jinfeng Wen, Jianshu Zhao, Zixi Zhu, Xiaomin Zhang, Qi Liang, Ao Zhou, Shangguang Wang. SateLight: a satellite application update framework for satellite computing. Proceedings of the IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025: 117-128.
+| App11: Satellite Software | Dataset and analysis toolkit for collecting, filtering, and studying open-source satellite-related software; includes the RQ1 dataset of 22,286 projects and the RQ2/RQ3 sample of 646 projects. | Python scripts and Excel datasets | [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware) |
