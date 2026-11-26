@@ -17,4 +17,8 @@ The ten application directories are listed below. Each directory contains the ap
 | Ship Detection | Detects ships in remote-sensing images using a YOLOv5 model and the provided trained weights. | YOLOv5 and PyTorch; pre-trained `best.pt`; Dockerfile | `Ship Detection/origin/detect.py` |
 | Tracking Algorithm | Tracks feature points across video frames using Shi–Tomasi corner detection and pyramidal Lucas–Kanade optical flow. | C++ and OpenCV; Dockerfile | `Tracking Algorithm/origin/main.cpp` |
 
+## 🔗 Related Research Resource
+
+The [Satellite Software](https://github.com/OPEN-TianSuan/ApplicationLayer/blob/main/Satellite%20Software/README.md) directory introduces the [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware) dataset and analysis toolkit for studying open-source satellite-related software. The source scripts and datasets remain in the external repository.
+
 Jinfeng Wen, Jianshu Zhao, Zixi Zhu, Xiaomin Zhang, Qi Liang, Ao Zhou, Shangguang Wang. SateLight: a satellite application update framework for satellite computing. Proceedings of the IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025: 117-128.

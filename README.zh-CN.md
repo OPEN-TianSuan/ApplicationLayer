@@ -17,4 +17,8 @@ App1–App10 为 ASE 2025 论文中使用的应用。
 | 舰船检测（Ship Detection） | 使用 YOLOv5 模型与提供的预训练权重检测遥感图像中的舰船。 | YOLOv5 与 PyTorch；预训练权重 `best.pt`；Dockerfile | `Ship Detection/origin/detect.py` |
 | 目标跟踪（Tracking Algorithm） | 使用 Shi–Tomasi 角点检测与金字塔 Lucas–Kanade 光流，在视频帧之间跟踪特征点。 | C++ 与 OpenCV；Dockerfile | `Tracking Algorithm/origin/main.cpp` |
 
+## 🔗 相关研究资源
+
+[Satellite Software](https://github.com/OPEN-TianSuan/ApplicationLayer/blob/main/Satellite%20Software/README.zh-CN.md) 目录介绍 [WenJinfeng/SatelliteSoftware](https://github.com/WenJinfeng/SatelliteSoftware) 的开源卫星相关软件数据集与分析工具集。源代码脚本和数据集仍保留在外部仓库中。
+
 Jinfeng Wen, Jianshu Zhao, Zixi Zhu, Xiaomin Zhang, Qi Liang, Ao Zhou, Shangguang Wang. SateLight: a satellite application update framework for satellite computing. Proceedings of the IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025: 117-128.
